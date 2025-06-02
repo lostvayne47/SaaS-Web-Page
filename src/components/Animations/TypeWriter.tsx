@@ -40,7 +40,7 @@ const Typewriter = ({
   }, [index, isDeleting, text, speed, pause, shouldDelete]);
 
   return (
-    <span style={{ whiteSpace: "pre" }}>
+    <span>
       {displayedText}
       <span className="blinking-cursor">|</span>
     </span>
