@@ -25,7 +25,7 @@ const Hero = () => {
         </p>
         <Button
           onClick={handleScheduleClick}
-          className="bg-gradient-to-b from-[#04B1DB] to-[#0464F6] hover:from-green-500 hover:to-green-700 text-white  font-bold py-2 md:py-3 px-6 md:px-8 rounded-md sm:w-auto"
+          className=" h-5 w-15 bg-gradient-to-b from-[#04B1DB] to-[#0464F6] hover:from-green-500 hover:to-green-700 text-white  font-bold py-2 md:py-3 px-6 md:px-8 rounded-md sm:w-auto"
         >
           Get Free Lead Growth Plan
         </Button>
